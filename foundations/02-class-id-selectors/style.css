@@ -1,0 +1,22 @@
+* {
+    background-color: antiquewhite;
+    font-size: x-large;
+}
+p {
+    background-color: rgb(247, 6, 171);
+    font-family: Verdana, Geneva, dejavu, Tahoma, sans-serif, serif;
+}
+#one {
+    color: blue;
+    font-size: 36px;
+}
+.third {
+    color: white;
+    font-size: 24px;
+    font-family: georgia;
+}
+#two {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

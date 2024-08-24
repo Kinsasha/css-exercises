@@ -1,0 +1,14 @@
+* {
+    background-color: darkblue;
+    position: relative;
+}
+div {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: red;
+    color: greenyellow;
+    position: relative;
+    top: 100px;
+    bottom: auto;
+}

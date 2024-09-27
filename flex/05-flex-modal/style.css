@@ -13,13 +13,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: auto;
 }
 
 .modal {
   background: white;
-  width: 480px;
+  width: ;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 480px;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 16px 0px 16px;
 }
 
 .icon {
@@ -50,12 +59,22 @@ body {
   padding: 0;
 }
 
+.two {
+  display: flex;
+  margin: 0 80px 8px 80px;
+  flex: auto;
+  flex-wrap: wrap;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
 
+.three {
+  margin: 0 80px 16px 80px;
+}
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
@@ -66,4 +85,7 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.header {
+  margin-left: -100px;
 }
